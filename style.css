@@ -1,0 +1,77 @@
+body{
+    background-color: #15161B;
+    color:white;
+    width: 100%;
+    height: 100%;
+}
+#perfil {
+    display: flex;
+    width: 100%;
+    text-align:right;
+}
+#conteiner{ 
+    margin-top: 3em;
+    margin-left: 17%;
+    margin-right: 17%;
+    display: flex;
+    background-color:#2D2D37;
+    border-radius: 1em;
+    padding: 1em 1em 1em 1em;
+}
+#info{
+    display: block;
+    text-align:left;
+    font-size: 17px;
+    padding-left: 1em;
+    line-height: 0.8em;
+    letter-spacing: .2rem;
+
+}
+#conteudo{
+    height:40em;
+    display: block;
+    margin-left: 17%;
+    margin-right: 17%;
+    background-color:#2D2D37;
+    border-radius: 1em;
+}
+#artigos{
+    padding-top: 1em;   
+    text-align:center;
+    
+}
+#foto_eu{
+    width: 10em;
+    height: 10em;
+    border-radius: 10em;    
+    border: 0.4em solid #22DD7A;
+    
+}
+.menu{
+    padding: 1em 2em 1em 1em;   
+    border-radius: 0.2em;
+    background-color: #15161B; 
+    width: 10%;
+}
+.menu :hover{
+    background-color: aliceblue;
+}
+
+ul{
+    padding-top: 1em;
+    cursor:pointer;
+}
+li{ 
+    margin-top: 1em;
+    list-style-type: none;
+    position: hidden;
+}
+#Brasil{
+    width: 2em;
+    height: 2em;
+    border: 0.2em solid #22DD7A;
+    box-shadow: 1px 1px 12px 1px black;
+    border-radius: 10em;
+    margin-top: 8em;
+    margin-left: -2em;
+}
