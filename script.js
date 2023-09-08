@@ -42,7 +42,7 @@ Mostra_habilidades.addEventListener('click', (event) => {
         habilidades.style.display = 'inline-block';
         const info = ['JavaScript', 'SQL','Python', 'Github'];
         habilidades.innerHTML = `
-        <p class='habilidades'> <img src="/img/icons/jsicon.png" alt="jsicon" class='icons'> ${info[0]} </p>    
+        <p class='habilidades'> <img src="https://vitorsanchespy.github.io/jsicon.png" alt="jsicon" class='icons'> ${info[0]} </p>    
         <p class='habilidades'> <img src="/img/icons/sqlicon.png" alt="sqlicon" class='icons'>${info[1]}</p> 
         <p class='habilidades'> <img src="/img/icons/pythonicon.png" alt="pythonicon" class='icons'>${info[2]}</p>  
         <p class='habilidades'> <img src="https://vitorsanchespy.github.io/giticon.png" class='icons'>${info[3]}</p>`
