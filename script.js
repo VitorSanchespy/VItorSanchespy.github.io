@@ -13,8 +13,8 @@ Mostra_formacao.addEventListener('click', (event) => {
     if (formacao.style.display === 'none' || formacao.style.display === '') {
         formacao.style.display = 'inline-block';
         const info = ['IT technical', 'Software enginer'];
-        formacao.innerHTML = `<p class='habilidades'> <img src="/img/icons/tilogo.png" alt="jsicon" class='icons'>${info[0]} </p>
-                                <p class='habilidades'> <img src="/img/icons/englogo.png" alt="jsicon" class='icons'> ${info[1]} </p>`
+        formacao.innerHTML = `<p class='habilidades'> <img src="https://vitorsanchespy.github.io/tilogo.png" alt="jsicon" class='icons'>${info[0]} </p>
+                                <p class='habilidades'> <img src="https://vitorsanchespy.github.io/englogo.png" alt="jsicon" class='icons'> ${info[1]} </p>`
     } else {
         formacao.style.display = 'none';
     }
@@ -27,8 +27,8 @@ Mostra_emprego.addEventListener('click', (event) => {
     if (emprego.style.display === 'none' || emprego.style.display === '') {
         emprego.style.display = 'inline-block';
         const info = ['UFMT IT technical', 'Escola Linus PJ'];
-        emprego.innerHTML = `<p class='habilidades'> <img src="/img/icons/logoufmt.png" alt="jsicon" class='icons'>${info[0]} </p>
-                             <p class='habilidades'> <img src="/img/icons/lslogo.jpg" alt="jsicon" class='icons'>${info[1]} </p>    `
+        emprego.innerHTML = `<p class='habilidades'> <img src="https://vitorsanchespy.github.io/logoufmt.png" alt="jsicon" class='icons'>${info[0]} </p>
+                             <p class='habilidades'> <img src="https://vitorsanchespy.github.io/lslogo.jpg" alt="jsicon" class='icons'>${info[1]} </p>    `
     } else {
         emprego.style.display = 'none';
     }
@@ -43,8 +43,8 @@ Mostra_habilidades.addEventListener('click', (event) => {
         const info = ['JavaScript', 'SQL','Python', 'Github'];
         habilidades.innerHTML = `
         <p class='habilidades'> <img src="https://vitorsanchespy.github.io/jsicon.png" alt="jsicon" class='icons'> ${info[0]} </p>    
-        <p class='habilidades'> <img src="/img/icons/sqlicon.png" alt="sqlicon" class='icons'>${info[1]}</p> 
-        <p class='habilidades'> <img src="/img/icons/pythonicon.png" alt="pythonicon" class='icons'>${info[2]}</p>  
+        <p class='habilidades'> <img src="https://vitorsanchespy.github.io/sqlicon.png" alt="sqlicon" class='icons'>${info[1]}</p> 
+        <p class='habilidades'> <img src="https://vitorsanchespy.github.io/pythonicon.png" alt="pythonicon" class='icons'>${info[2]}</p>  
         <p class='habilidades'> <img src="https://vitorsanchespy.github.io/giticon.png" class='icons'>${info[3]}</p>`
     } else {
         habilidades.style.display = 'none';
